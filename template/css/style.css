@@ -1,0 +1,72 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.brushes h2{
+     background-color: mediumspringgreen;
+     font-size: 32px;
+     font-weight: bold;
+     color: #ffffff;
+     font-family: Helvetica;
+}
+
+strong{
+     font-family: Helvetica;
+     font-weight: bold;
+     color: blue;
+}
+
+.frames h2{
+     background-color: lightcoral;
+     font-size: 32px;
+     font-weight: bold;
+     color: #ffffff;
+     font-family: Helvetica;
+}
+
+.paint h2{
+     background-color: skyblue;
+     font-size: 32px;
+     font-weight: bold;
+     color: #ffffff;
+     font-family: Helvetica;
+}
+
+h1{
+     background-image:url("file:///C:/Users/VICTOR/Downloads/damotoArtsAndCrafts/template/pattern.webp");
+     font-family: Helvetica;
+     font-weight:bold;
+     font-size: 100px;
+     color: khaki;
+     text-align: center;
+}
+
